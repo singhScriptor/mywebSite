@@ -3,9 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Animated Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
 </head>
-<body>
-    <h></h>
+<body>    
+    <div class="container">
+        <h1 class="animated-header">Welcome to My Animated Website!</h1>
+        <input type="checkbox" id="toggle_checkbox">
+        <label for="toggle_checkbox">
+            <div id="star">
+                <div class="star" id="star-1">★</div>
+                <div class="star" id="star-2">★</div>
+            </div>
+            <div id="moon"></div>
+        </label>
+    </div>
+    <footer>
+        <p class="copyright">&copy;DhirajKr</p>
+        <div class="footer-content">
+            <a href="mailto:dhirajkr1117@gmail.com" id="emailLink"><i class="fas fa-envelope"></i></a>
+            <a href="https://github.com/singhScriptor" target="_blank" id="githubLink"><i class="fab fa-github"></i></a>
+            <a href="https://x.com/drjsingh_?t=sel7LRDKnNsHUojOlChd9g&s=09" target="_blank" id="twitterLink"><i class="fab fa-twitter"></i></a>
+            <a href="https://discord.gg/bKw582RV" target="_blank" id="discordLink"><i class="fab fa-discord"></i></a>
+        </div>
+        
+    </footer>
+    
+    <script src="script.js"></script>
 </body>
+    
 </html>
